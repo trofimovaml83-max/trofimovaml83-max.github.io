@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя страница</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f6f8;
+            color: #222;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            padding: 40px;
+        }
+        header {
+            text-align: center;
+            border-bottom: 2px solid #eaeaea;
+            padding-bottom: 25px;
+            margin-bottom: 30px;
+        }
+        header h1 {
+            font-size: 2.2em;
+            color: #1a1a2e;
+            margin-bottom: 10px;
+        }
+        header p {
+            color: #666;
+            font-size: 1.1em;
+        }
+        h2 {
+            color: #1a1a2e;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+            border-left: 4px solid #4a90d9;
+            padding-left: 12px;
+        }
+        p {
+            margin-bottom: 12px;
+        }
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        ul li {
+            padding: 8px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        ul li:last-child {
+            border-bottom: none;
+        }
+        a {
+            color: #4a90d9;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        a:hover {
+            color: #2c6cb0;
+            text-decoration: underline;
+        }
+        .card {
+            background: #f9fafb;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 15px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eaeaea;
+            color: #999;
+            font-size: 0.9em;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+            header h1 {
+                font-size: 1.6em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Иван Иванов</h1>
+            <p>Начинающий веб-разработчик</p>
+        </header>
+
+        <section>
+            <h2>Обо мне</h2>
+            <p>Привет! Это моя первая страница в интернете. Я учусь создавать сайты и размещать их в сети.</p>
+            <p>Здесь я буду рассказывать о своих проектах и делиться полезными ссылками.</p>
+        </section>
+
+        <section>
+            <h2>Мои навыки</h2>
+            <div class="card">
+                <ul>
+                    <li>HTML — структура страниц</li>
+                    <li>CSS — оформление и дизайн</li>
+                    <li>GitHub Pages — публикация сайтов</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Контакты</h2>
+            <div class="card">
+                <ul>
+                    <li>Email: <a href="mailto:me@example.com">me@example.com</a></li>
+                    <li>GitHub: <a href="https://github.com/ваш_логин" target="_blank">Мой профиль</a></li>
+                    <li>Telegram: <a href="https://t.me/ваш_ник" target="_blank">@ваш_ник</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Иван Иванов. Все права защищены.</p>
+        </footer>
+    </div>
+</body>
+</html>
