@@ -5,6 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Моя страница</title>
     <style>
+        .btn-telegram {
+            display: inline-block;
+            background-color: #0088cc; 
+            color: #ffffff !important; 
+            padding: 12px 24px;
+            border-radius: 30px;
+            font-weight: bold;
+            text-decoration: none;
+            transition: background-color 0.3s, transform 0.2s;
+            margin-top: 10px;
+            box-shadow: 0 4px 10px rgba(0, 136, 204, 0.3);
+        }
+        .btn-telegram:hover {
+            background-color: #006699; 
+            transform: translateY(-2px); 
+            text-decoration: none; 
+        }
         * {
             margin: 0;
             padding: 0;
@@ -118,15 +135,16 @@
         </section>
 
         <section>
+                   <section>
             <h2>Контакты</h2>
             <div class="card">
                 <ul>
                     <li>Email: <a href="mailto:trofimovaml83@gmail.com">trofimovaml83@gmail.com</a></li>
-                    <li>Telegram: <a href="https://t.me/ваш_ник" target="_blank">@Hello_fack</a></li>
+                    <li>Telegram: <a href="https://t.me/Hello_fack" target="_blank">@Hello_fack</a></li>
                 </ul>
+                <a href="https://t.me/Hello_fack" target="_blank" class="btn-telegram">Подписаться на Telegram</a>
             </div>
         </section>
-
         <footer>
             <p>&copy; 2025 Трофимов Артём. Все права защищены.</p>
         </footer>
